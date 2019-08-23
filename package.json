@@ -30,7 +30,7 @@
     "base-x": "^3.0.5",
     "entities": "^1.1.2",
     "hexy": "^0.3.0",
-    "jsonpath": "^1.0.1",
+    "jsonpath": "1.0.1",
     "punycode": "^2.1.1",
     "rot": "^0.1.0"
   },
