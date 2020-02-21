@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/pownjs/pown-encoder#readme",
   "devDependencies": {
-    "@pown/cli": "^2.14.1",
+    "@pown/cli": "^2.20.0",
     "@pown/toolchain": "^2.0.0"
   },
   "dependencies": {
-    "base-x": "^3.0.5",
+    "base-x": "^3.0.7",
     "entities": "^1.1.2",
     "hexy": "^0.3.0",
     "jsonpath": "1.0.1",
