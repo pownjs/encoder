@@ -5,7 +5,7 @@ exports.yargs = {
     handler: async(argv) => {
         const { transform } = argv
 
-        const { transforms } = require('../transforms')
+        const { transforms } = require('../lib/transforms')
 
         const util = transforms[transform]
 
@@ -27,6 +27,6 @@ exports.yargs = {
 
         const buffer = await read(process.stdin)
 
-        console.log(util.func(buffer).toString())
+        console.log(util.func(buffer, {}).toString())
     }
 }
