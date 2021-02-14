@@ -1,11 +1,12 @@
 exports.yargs = {
-    command: 'encoder <transform>',
+    command: '$0 <transform>',
     describe: 'Encoder/Decoder',
+    aliases: ['enc'],
 
     handler: async(argv) => {
         const { transform } = argv
 
-        const { transforms } = require('../lib/transforms')
+        const { transforms } = require('../../../../lib/transforms')
 
         const util = transforms[transform]
 

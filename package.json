@@ -36,7 +36,7 @@
   },
   "pown": {
     "commands": [
-      "commands/encoder.js"
+      "commands/encoder"
     ]
   },
   "browserify": {
