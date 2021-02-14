@@ -1,7 +1,7 @@
 exports.yargs = {
     command: 'encoder <command>',
     describe: 'Encoder/Decoder',
-    aliases: ['enc'],
+    aliases: ['enc', 'decoder', 'dec'],
 
     builder: (yargs) => {
         yargs.command(require('./sub/encoder').yargs)

@@ -1,7 +1,7 @@
 exports.yargs = {
     command: '$0 <transform>',
     describe: 'Encoder/Decoder',
-    aliases: ['enc'],
+    aliases: ['enc', 'decoder', 'dec'],
 
     handler: async(argv) => {
         const { transform } = argv
