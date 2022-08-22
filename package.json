@@ -38,15 +38,5 @@
     "commands": [
       "commands/encoder"
     ]
-  },
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "extends": "./.babelrc"
-        }
-      ]
-    ]
   }
 }
