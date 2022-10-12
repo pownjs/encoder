@@ -1,7 +1,7 @@
 exports.yargs = {
     command: '$0 <transform>',
     describe: 'Encoder/Decoder',
-    aliases: ['enc', 'decoder', 'dec'],
+    aliases: ['encoder', 'enc', 'decoder', 'dec'],
 
     handler: async(argv) => {
         const { transform } = argv
@@ -26,8 +26,9 @@ exports.yargs = {
             return buffer
         }
 
-        const buffer = await read(process.stdin)
+        const input = await read(process.stdin)
+        const output = await util.func(input, {})
 
-        console.log(util.func(buffer, {}).toString())
+        console.log(output.toString())
     }
 }

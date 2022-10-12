@@ -27,6 +27,7 @@
     "entities": "^1.1.2",
     "hexy": "^0.3.4",
     "jsonpath-plus": "^7.2.0",
+    "openpgp": "^4.6.2",
     "punycode": "^2.1.1",
     "rot": "^0.1.0"
   },
