@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "cli": "POWN_ROOT=. npx @pown/cli@latest",
-    "test": "npx mocha@latest"
+    "test": "true"
   },
   "repository": {
     "type": "git",
