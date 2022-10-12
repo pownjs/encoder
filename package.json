@@ -4,6 +4,7 @@
   "description": "Pownage guaranteed",
   "main": "lib/index.js",
   "scripts": {
+    "usage": "POWN_ROOT=. npx @pown/cli@latest encoder --help",
     "cli": "POWN_ROOT=. npx @pown/cli@latest",
     "test": "true"
   },
