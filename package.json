@@ -4,33 +4,29 @@
   "description": "Pownage guaranteed",
   "main": "lib/index.js",
   "scripts": {
-    "encoder": "POWN_ROOT=. pown-cli encoder",
-    "test": "mocha"
+    "cli": "POWN_ROOT=. npx @pown/cli@latest",
+    "test": "npx mocha@latest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pownjs/pown-encoder.git"
+    "url": "git+https://github.com/pownjs/encoder.git"
   },
   "keywords": [
-    "exploit",
+    "security",
     "framework"
   ],
   "author": "pdp <pdp@gnucitizen.org>",
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pownjs/pown-encoder/issues"
+    "url": "https://github.com/pownjs/encoder/issues"
   },
-  "homepage": "https://github.com/pownjs/pown-encoder#readme",
-  "devDependencies": {
-    "@pown/cli": "^2.25.3",
-    "@pown/toolchain": "^2.0.0"
-  },
+  "homepage": "https://github.com/pownjs/encoder#readme",
   "dependencies": {
-    "base-x": "^3.0.8",
+    "base-x": "^3.0.9",
     "entities": "^1.1.2",
-    "hexy": "^0.3.1",
-    "jsonpath": "1.0.1",
+    "hexy": "^0.3.4",
+    "jsonpath-plus": "^7.2.0",
     "punycode": "^2.1.1",
     "rot": "^0.1.0"
   },
